@@ -3,7 +3,7 @@ const nat = document.getElementById('nat');
   Chart.defaults.borderColor = '#fff'
   Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
-  Chart.defaults.font.weight = '400'
+  Chart.defaults.font.weight = '300'
 
   new Chart(nat, {
     type: 'line',
@@ -12,7 +12,7 @@ const nat = document.getElementById('nat');
       datasets: [{
         label: '37 pessoas escravizadas naturais do Distrito Federal',
         data: [10, 7, 6, 6, 5, 3],
-        borderWidth: 3
+        borderWidth: 1
       }]
     },
     options: {
@@ -35,7 +35,7 @@ const nat = document.getElementById('nat');
       datasets: [{
         label: '48 pessoas escravizadas residentes do Distrito Federal',
         data: [18, 8, 7, 7, 3, 5],
-        borderWidth: 3
+        borderWidth: 1
       }]
     },
     options: {

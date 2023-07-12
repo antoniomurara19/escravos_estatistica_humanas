@@ -10,6 +10,7 @@
 
 body{
     background: #040113;
+    overflow-x: hidden;
 }
 header{
     background: #000;
@@ -58,4 +59,30 @@ a{
     font-size: 2rem;
     font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+
+/*============main============*/
+main{
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0px 0px 0px;
+}
+.idade,.idade_,.idade__,.idade___{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0px 3rem 0px;
+}
+#idade_mas,#idade_fem,#idade_mas_,#idade_fem_{
+    border: 3px solid #fff;
+    margin: 2vw;
+    width: 100vw;
+    height: 40vh;
+    background: #5ec709;
 }
