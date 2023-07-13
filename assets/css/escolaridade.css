@@ -9,13 +9,14 @@
 }
 
 body{
-    background: #040113;
+    background: #04021d;
+    cursor: default;
     overflow-x: hidden;
 }
 header{
     background: #000;
     width: 100vw;
-    height: 11vh;
+    height: 10vh;
 }
 h1{
     color: #fff;
@@ -34,9 +35,11 @@ ul{
 }
 a{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-
+a:nth-last-child(1){
+    margin: 0px 1rem 0px 0px;
+}
 .expand{
     position:relative;
     text-decoration:none;
@@ -84,5 +87,5 @@ h2{
     margin: 2vw;
     width: 40vw;
     height: 40vh;
-    background: #ffee0031;
+    background: #0fafa231;
 }

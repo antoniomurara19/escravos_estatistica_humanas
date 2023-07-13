@@ -1,6 +1,6 @@
 const idade_mas = document.getElementById('idade_mas');
 
-  Chart.defaults.borderColor = '#000'
+  Chart.defaults.borderColor = '#fff'
   Chart.defaults.color = '#000'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '1000'
@@ -49,7 +49,7 @@ const idade_mas = document.getElementById('idade_mas');
       datasets: [{
         label: '16 mulheres escravizadas residentes do Distrito Federal',
         data: [0,4,1,4,2,2,2,1,0,0],
-        borderWidth: 5
+        borderWidth: 3
       }]
     },
     options: {

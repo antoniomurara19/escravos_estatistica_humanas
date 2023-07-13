@@ -9,13 +9,14 @@
 }
 
 body{
-    background: #040113;
+    cursor: default;
+    background: #0a021d;
     overflow-x: hidden;
 }
 header{
     background: #000;
     width: 100vw;
-    height: 11vh;
+    height: 10vh;
 }
 h1{
     color: #fff;
@@ -34,9 +35,11 @@ ul{
 }
 a{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-
+a:nth-last-child(1){
+    margin: 0px 1rem 0px 0px;
+}
 .expand{
     position:relative;
     text-decoration:none;
@@ -70,19 +73,19 @@ h2{
     color: #fff;
     text-align: center;
     font-size: 3rem;
-    margin: 3rem 0px 0px 0px;
+    margin: 1rem 0px 1rem 0px;
 }
 .idade,.idade_,.idade__,.idade___{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin: 3rem 0px 3rem 0px;
+    margin: 1rem 0px 3rem 0px;
 }
 #idade_mas,#idade_fem,#idade_mas_,#idade_fem_{
     border: 3px solid #fff;
     margin: 2vw;
     width: 100vw;
     height: 40vh;
-    background: #ffee0031;
+    background: #ffee007e;
 }

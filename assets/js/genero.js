@@ -5,19 +5,6 @@ const mas = document.getElementById('mas')
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '300'
 
-// const labels = ['menor que 18','18-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59','maior que 60']
-
-// const data = {
-//     labels,
-//     datasets: [{
-//         data: [4, 12, 9, 8, 6, 4, 2, 1, 2, 0],
-//         label: 'Masculinos naturais do Distrito Federal',
-//         backgroundColor:'red',
-//         borderColor: '#fff',
-//         borderWidth: 3
-//     }],
-// }
-
 new Chart(mas, {
   type: 'bar',
   data: {
@@ -36,23 +23,6 @@ new Chart(mas, {
     }
   }
 });
-
-// const config = {
-//     type: 'bar',
-//     data,
-//     options: {
-//         scales: {
-//           y: {
-//             beginAtZero: true
-//           }
-//         },
-//         color: 'white',
-//         pointBackgroundColor: 'white',
-//         pointBorderColor: 'white',
-//       },
-// }
-
-// const graph = new Chart(mas, config)
 
 /* ============================== */
 
