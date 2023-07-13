@@ -68,6 +68,8 @@ main{
 h2{
     color: #fff;
     text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0px 0px 0px;
 }
 .genero,.genero_{
     width: 50vw;
@@ -80,5 +82,6 @@ h2{
     margin: 2vw;
     width: 40vw;
     height: 40vh;
+    background: #ffee0031;
     
 }
