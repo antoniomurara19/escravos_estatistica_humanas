@@ -12,7 +12,7 @@ const nat = document.getElementById('nat');
       datasets: [{
         label: '37 pessoas escravizadas naturais do Distrito Federal',
         data: [10, 7, 6, 6, 5, 3],
-        borderWidth: 1
+        borderWidth: 3
       }]
     },
     options: {
@@ -20,7 +20,10 @@ const nat = document.getElementById('nat');
         y: {
           beginAtZero: true
         }
-      }
+      },
+        color: '#fff',
+        pointBackgroundColor: 'black',
+        pointBorderColor: 'black',
     }
   });
 
@@ -43,6 +46,9 @@ const nat = document.getElementById('nat');
         y: {
           beginAtZero: true
         }
-      }
+      },
+        color: '#fff',
+        pointBackgroundColor: 'black',
+        pointBorderColor: 'black',
     }
   });
