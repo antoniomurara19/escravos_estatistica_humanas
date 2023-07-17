@@ -1,7 +1,7 @@
 const idade_mas = document.getElementById('idade_mas');
 
   Chart.defaults.borderColor = '#fff'
-  Chart.defaults.color = '#000'
+  Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '1000'
 
@@ -37,8 +37,8 @@ const idade_mas = document.getElementById('idade_mas');
 
   const idade_fem = document.getElementById('idade_fem');
 
-  Chart.defaults.borderColor = '#000'
-  Chart.defaults.color = '#000'
+  Chart.defaults.borderColor = '#fff'
+  Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '1000'
 
@@ -74,8 +74,8 @@ const idade_mas = document.getElementById('idade_mas');
 
   const idade_mas_ = document.getElementById('idade_mas_');
 
-  Chart.defaults.borderColor = '#000'
-  Chart.defaults.color = '#000'
+  Chart.defaults.borderColor = '#fff'
+  Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '300'
 
@@ -111,8 +111,8 @@ const idade_mas = document.getElementById('idade_mas');
   
   const idade_fem_ = document.getElementById('idade_fem_');
 
-  Chart.defaults.borderColor = '#000'
-  Chart.defaults.color = '#000'
+  Chart.defaults.borderColor = '#fff'
+  Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '300'
 

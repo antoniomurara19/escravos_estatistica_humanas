@@ -37,8 +37,8 @@ const nat = document.getElementById('nat');
 
 const res = document.getElementById('res');
 
-  Chart.defaults.borderColor = '#000'
-  Chart.defaults.color = '#000'
+  Chart.defaults.borderColor = '#fff'
+  Chart.defaults.color = '#fff'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '400'
 
