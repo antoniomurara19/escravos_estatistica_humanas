@@ -116,8 +116,12 @@ h2{
     margin: 1rem 0px 1rem 0px;
 }
 
-video{
-    width: 80%;
+#video{
     margin: 1rem 0px 1rem 0px;
+    border: 5px solid #414181;
+}
+
+#map{
+    margin: 0px 15px;
     border: 5px solid #414181;
 }
