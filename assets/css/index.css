@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -124,4 +125,15 @@ h2{
 #map{
     margin: 0px 15px;
     border: 5px solid #414181;
+}
+
+.side-bar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -200vw;
+}
+.material-symbols-outlined{
+    display: none;
+    color: #fff;
 }

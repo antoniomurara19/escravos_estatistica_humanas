@@ -1,0 +1,35 @@
+@media (max-width:900px){
+    .a{
+        display: none;
+    }
+    .h1{
+        font-size: 1.6rem;
+    }
+    .esc{
+        flex-direction: column;
+    }
+    .material-symbols-outlined{
+        display: block;
+    }
+    .side-bar{
+        background-color: #040113;
+        height: 100vh;
+        transition: .2s linear all;
+    }
+    .txt{
+        width: 80vw;
+    }
+    .img1{
+        height: 50vh;
+    }
+    iframe{
+        width: 80vw;
+    }
+    .genero,.genero_{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
