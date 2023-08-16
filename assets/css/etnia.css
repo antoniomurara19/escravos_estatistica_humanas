@@ -100,3 +100,34 @@ h2{
     display: none;
     color: #fff;
 }
+
+/* CÁLCULO */
+h4{
+    color: #fff;
+    font-size: 2rem;
+}
+.h1_calculo{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: default;
+}
+#botao_calcular{
+    padding: 0px 5vw;
+    font-size: 2rem;
+    background: #040113;
+    border: 3px solid #fff;
+    color: #fff;
+}
+#botao_calcular:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: .3s linear all;
+}
+.res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+
