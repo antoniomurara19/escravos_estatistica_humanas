@@ -108,3 +108,17 @@ h2{
     display: none;
     color: #fff;
 }
+
+table{
+    width: 45vw;
+    border: 1px solid #fff;
+}
+
+td{
+    color: white;
+    font-family: Comfortaa;
+    width: 50%;
+    border-bottom: #fff 2px dashed;
+
+    
+}
