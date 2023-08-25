@@ -6,7 +6,7 @@ const idade_mas = document.getElementById('idade_mas');
   Chart.defaults.font.weight = '1000'
 
   new Chart(idade_mas, {
-    type: 'radar',
+    type: 'bar',
     data: {
       labels: ['menor de 19','20-25','26-30','31-35','36-40','41-45','46-50','51-55','56-60','maior de 60'],
       datasets: [{
@@ -43,7 +43,7 @@ const idade_mas = document.getElementById('idade_mas');
   Chart.defaults.font.weight = '1000'
 
   new Chart(idade_fem, {
-    type: 'radar',
+    type: 'bar',
     data: {
       labels: ['menor de 19','20-25','26-30','31-35','36-40','41-45','46-50','51-55','56-60','maior de 60'],
       datasets: [{
@@ -80,7 +80,7 @@ const idade_mas = document.getElementById('idade_mas');
   Chart.defaults.font.weight = '300'
 
   new Chart(idade_mas_, {
-    type: 'radar',
+    type: 'bar',
     data: {
       labels: ['menor de 19','20-25','26-30','31-35','36-40','41-45','46-50','51-55','56-60','maior de 60'],
       datasets: [{
@@ -117,7 +117,7 @@ const idade_mas = document.getElementById('idade_mas');
   Chart.defaults.font.weight = '300'
 
   new Chart(idade_fem_, {
-    type: 'radar',
+    type: 'bar',
     data: {
       labels: ['menor de 19','20-25','26-30','31-35','36-40','41-45','46-50','51-55','56-60','maior de 60'],
       datasets: [{

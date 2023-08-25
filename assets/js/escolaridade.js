@@ -38,7 +38,7 @@ const nat = document.getElementById('nat');
       datasets: [{
         label: '48 pessoas escravizadas residentes do Distrito Federal',
         data: [18, 8, 7, 7, 3, 5],
-        borderWidth: 1
+        borderWidth: 3
       }]
     },
     options: {
