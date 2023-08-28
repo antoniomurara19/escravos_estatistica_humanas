@@ -7,6 +7,8 @@
     }
     .esc{
         flex-direction: column;
+        justify-content: space-evenly;
+        
     }
     h2{
         font-size: 2rem;
@@ -22,7 +24,7 @@
         transition: .2s linear all;
     }
     .txt{
-        width: 80vw;
+        width: 100vw;
     }
     .img1{
         height: 50vh;
