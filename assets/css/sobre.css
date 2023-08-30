@@ -74,7 +74,7 @@ a:nth-last-child(1){
 }
 .txt2{
     width: 80vw;
-    height: 80vh;
+    height: 67vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -118,12 +118,14 @@ h2{
 }
 
 table{
-    width: 45vw;
+    width: 65vw;
     border: 1px solid #fff;
+    margin-bottom: 3rem;
 }
 
 .contato{
     color: white;
     font-family: Comfortaa;
     border-bottom: #fff 2px dashed;
+
 }
