@@ -72,6 +72,13 @@ a:nth-last-child(1){
     flex-direction: column;
     justify-content: space-between;
 }
+.txt2{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 h2{
     color: #fff;
