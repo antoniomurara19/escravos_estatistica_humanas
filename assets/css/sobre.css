@@ -67,11 +67,12 @@ a:nth-last-child(1){
 
 .txt{
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
 }
+
 h2{
     color: #fff;
     text-align: center;
@@ -85,7 +86,7 @@ h2{
 
 .esc{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -114,11 +115,8 @@ table{
     border: 1px solid #fff;
 }
 
-td{
+.contato{
     color: white;
     font-family: Comfortaa;
-    width: 50%;
     border-bottom: #fff 2px dashed;
-
-    
 }
